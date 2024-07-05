@@ -15,7 +15,7 @@ const { request, response } = require('express');
 //we declareren een variabele en we stellen ze gelijk aan een functie als waarde.
 //
 const app = express();
-port=3000;
+port=10000;//3000
 app.use(cors()); // we gebruiken de cors middelware in onze Express server.
 //
 let sql;//deel2
