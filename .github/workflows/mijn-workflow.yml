@@ -1,0 +1,10 @@
+on: push
+jobs:
+  eerste-taak:
+    runs-on: windows-latest
+    steps:
+      - run: node --version
+      - run: npm --version
+      - uses: actions/checkout@v4
+      - run: npm install
+      - run: node app.js
